@@ -1,0 +1,6 @@
+$(function() {
+	$('.js-moreBtn').on('click', function() {
+		$('.column-page-body.is-moreblock').addClass('is-showAll');
+		$('.m-btn-wrap').hide();
+	});
+});

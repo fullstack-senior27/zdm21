@@ -1,0 +1,14 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14 14">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#2f2f2f;}</style>
+    <clipPath id="clip-path"><rect class="cls-1" width="14" height="14"/></clipPath>
+  </defs>
+  <g id="グループ_15" data-name="グループ 15">
+    <title>ニュータブ</title>
+    <g class="cls-2">
+      <g id="グループ_14" data-name="グループ 14">
+        <path id="パス_38" data-name="パス 38" class="cls-3" d="M13.43,0H8.29a.56.56,0,0,0-.52.59.57.57,0,0,0,.5.52h3.84L6.42,6.8a.54.54,0,0,0,0,.78.55.55,0,0,0,.78,0v0l5.69-5.69V5.71a.55.55,0,1,0,1.1.11V.63A.55.55,0,0,0,13.52,0h-.09M2.76,1.11A2.77,2.77,0,0,0,0,3.87v7.37A2.77,2.77,0,0,0,2.76,14h7.37a2.77,2.77,0,0,0,2.76-2.76V7.55a.55.55,0,0,0-1.1-.1v3.79a1.66,1.66,0,0,1-1.64,1.66H2.76A1.66,1.66,0,0,1,1.1,11.26V3.87A1.66,1.66,0,0,1,2.74,2.21H6.45a.55.55,0,1,0,.1-1.09H2.76Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
