@@ -1,0 +1,54 @@
+Time Limit: 30min
+
+Two English words are similar if they only contain the same alphabetical letters. For example, food and good are not similar, but dog and good are similar. (If A is similar to B, then all letters in A are contained in B, and all letters in B are contained in A.)
+Given a word W and a list of words L, return how many unique words exist in L that are similar to W. Print the word count to standard output.
+• W and all words in L are English words.
+10 < |L| < 500,000
+Example:
+Input (stdin):
+love
+velo low vole lovee volvell lowly lower lover levo loved love lovee lowe lowes lovey lowan lowa evolve loves volvelle
+lowed love
+Output (stdout):
+8
+Explanation:
+The words in L similar to love are
+evolve levo love lovee velo vole volvell volvelle
+which count up to 8.
+
+// correct answer
+function countSimilarWords(W, L) {
+    const uniqueCharsW = new Set(W);
+    const similarUniqueWords = [];
+    
+    for (const word of L) {
+        const uniqueCharsWord = new Set(word);
+        let similarToW = true, similarToL = true;
+        
+        for (const char of uniqueCharsWord) {
+            if (!uniqueCharsW.has(char)) {
+                similarToW = false;
+                break;
+            }
+        }
+        
+        if (similarToW) {
+            for (const char of uniqueCharsW) {
+                if (!uniqueCharsWord.has(char)) {
+                    similarToL = false;
+                    break;
+                }
+            }
+        }
+        
+        if (similarToW && similarToL && !similarUniqueWords.includes(word)) {
+            similarUniqueWords.push(word);
+        } else {
+            
+        }
+    }
+    
+    console.log(similarUniqueWords.join(' '));
+
+    return similarUniqueWords.length;
+}
